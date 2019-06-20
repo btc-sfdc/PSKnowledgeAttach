@@ -35,7 +35,7 @@ public class PSKnowledgeAttachController {
                 // handle if extra fields are specified
                 if (extraFields != null)
                 {
-                    List<PSField> fieldList = new List<PSField>();
+                  //  List<PSField> fieldList = new List<PSField>();
 
                     Schema.SObjectType targetType = Schema.getGlobalDescribe().get('Knowledge__kav');
                     Schema.DescribeSObjectResult sobjResult = targetType.getDescribe();
